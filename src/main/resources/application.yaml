@@ -3,3 +3,13 @@ spring:
     username:  pet_parks
     password:  pet_parks
     url:  jdbc:mysql://localhost:3306/pet_parks
+    
+  jpa:
+    hibernate:
+      ddl-auto:  create
+    show-sql: true
+    defer-datasource-initialization: true
+    
+  sql:
+    init:
+      mode: always

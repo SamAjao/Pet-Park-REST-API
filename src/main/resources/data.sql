@@ -1,0 +1,10 @@
+INSERT INTO amenity (amenity) VALUE ('dog friendly');
+INSERT INTO amenity (amenity) VALUE ("cat friendly");
+INSERT INTO amenity (amenity) VALUE ("turtle friendly");
+INSERT INTO amenity (amenity) VALUE ("restrooms");
+INSERT INTO amenity (amenity) VALUE ("fenced area");
+INSERT INTO amenity (amenity) VALUE ("hot dog stand");
+INSERT INTO amenity (amenity) VALUE ("parking area");
+INSERT INTO amenity (amenity) VALUE ("wifi");
+INSERT INTO amenity (amenity) VALUE ("vending machines");
+INSERT INTO amenity (amenity) VALUE ("docent");
