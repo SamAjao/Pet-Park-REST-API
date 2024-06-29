@@ -29,7 +29,7 @@ public class PetPark {
 	private String country;
 	
 	@Embedded
-	private GeoLocation getLocation;
+	private GeoLocation geoLocation;
 	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude

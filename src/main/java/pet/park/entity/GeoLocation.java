@@ -13,7 +13,7 @@ public class GeoLocation {
 	private BigDecimal latitude;
 	private BigDecimal longitude;
 	
-	GeoLocation(GeoLocation getLocation){
+	public GeoLocation(GeoLocation getLocation){
 		this.latitude = getLocation.latitude;
 		this.longitude = getLocation.longitude;
 	}
