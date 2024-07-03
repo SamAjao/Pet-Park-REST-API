@@ -51,6 +51,12 @@ public class GlobalControllerErrorHandler {
 		
 	}
 	
+	@ExceptionHandler(IllegalStateException.class)
+	@ResponseStatus(code = HttpStatus.BAD_REQUEST)
+	public ExceptionMessage handleIllegalStateException(IllegalStateException ex, WebRequest webRequest) {
+		return buildExceptionMessage(ex, HttpStatus.BAD_REQUEST, webRequest, LogStatus.MESSAGE_ONLY);
+	}
+	
 	@ExceptionHandler(Exception.class)
 	@ResponseStatus(code = HttpStatus.INTERNAL_SERVER_ERROR)
 	public ExceptionMessage handleException(Exception ex, WebRequest webRequest) {

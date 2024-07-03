@@ -95,4 +95,12 @@ public class ParkController {
 		return parkService.savePetPark(contributorId, petParkData);
 	}
 	
+	@GetMapping("/contributor/{contributorId}/park/{parkId}")
+	public PetParkData retrievePetParkById(@PathVariable Long contributorId,
+			@PathVariable Long parkId) {
+		log.info("Retrieving pet park with ID= {} for contributor with ID={}", parkId, contributorId);
+		
+		return parkService.retrievePetParkById(contributorId, parkId);
+	}
+	
 }
