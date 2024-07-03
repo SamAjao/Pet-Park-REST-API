@@ -1,0 +1,13 @@
+{
+	"parkName": "Jonny Sack's Cabin Pet Park",
+	"directions": "Take Forest Road 20171",
+	"stateOrProvince": "ID",
+	"country": "USA",
+	"geoLocation": {
+		"latitude": "44.50045",
+		"longitude": "-111.25493"
+	},
+	"amenities": [
+		"dog friendly", "chicken friendly", "hot dog stand", "wifi"
+	]
+}

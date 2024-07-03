@@ -8,3 +8,4 @@ INSERT INTO amenity (amenity) VALUE ("parking area");
 INSERT INTO amenity (amenity) VALUE ("wifi");
 INSERT INTO amenity (amenity) VALUE ("vending machines");
 INSERT INTO amenity (amenity) VALUE ("docent");
+INSERT INTO amenity (amenity) VALUE ("chicken friendly");

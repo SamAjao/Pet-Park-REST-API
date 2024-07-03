@@ -23,7 +23,7 @@ public class ContributorData {
 		contributorName = contributor.getContributorName();
 		contributorEmail = contributor.getContributorEmail();
 		
-		for(PetPark petPark : contributor.getPetPark()) {
+		for(PetPark petPark : contributor.getPetParks()) {
 			petParks.add(new PetParkResponse(petPark));
 		}
 	}
